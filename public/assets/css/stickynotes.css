@@ -1,0 +1,38 @@
+.sticky {
+    /* General */
+    margin: 0 auto;
+    padding: 8px 24px;
+    width: 200px;
+    height: 25%;
+    /* Font */
+    font-family: 'Nothing You Could Do', Arial;
+    font-size: 1.4em;
+    /* Border */
+    border:1px #E8Ds47 solid;
+    /* Shadow */
+    -webkit-box-shadow: 10px 10px 29px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 29px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 29px -8px rgba(0,0,0,0.75);
+    /* Background */
+    background: #fefdca !important; /* Old browsers */
+    background: -moz-linear-gradient(top, #fefdca 0%, #f7f381 100%) !important; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefdca), color-stop(100%,#f7f381)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fefdca 0%,#f7f381 100%) !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fefdca 0%,#f7f381 100%) !important; /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #fefdca 0%,#f7f381 100%) !important; /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefdca', endColorstr='#f7f381',GradientType=0 ) !important; /* IE6-9 */
+    background: linear-gradient(top, #fefdca 0%,#f7f381 100%) !important; /* W3C; A catch-all for everything else */
+}
+ 
+.sticky ol {
+    margin: 12px;
+}
+ 
+.sticky p {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height:100%;
+    overflow: auto;
+}
+

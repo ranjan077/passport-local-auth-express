@@ -10,11 +10,6 @@ body {
 
 strong { font-weight: 500; }
 
-a, a:hover, a:focus {
-	color: #de615e;
-	text-decoration: none;
-    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
-}
 
 h1, h2 {
 	margin-top: 10px;

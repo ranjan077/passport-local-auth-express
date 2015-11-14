@@ -1,3 +1,4 @@
+var connectingString = process.env.OPENSHIFT_MONGODB_DB_URL || 'mongodb://localhost/university';
 module.exports =  {
-    connect_url : 'mongodb://localhost/university'
+    connect_url : connectingString
 }

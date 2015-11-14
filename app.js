@@ -12,7 +12,8 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var mongoose = require('mongoose');
 var mongoConfig = require('./config/mogoDb');
-var port = process.env.PORT || 3000;
+var port = process.env.OPENSHIFT_NODEJS_PORT || 3000;
+var ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -59,5 +60,4 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.listen(port);
-
+app.listen(port, ip);
